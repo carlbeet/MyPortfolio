@@ -27,3 +27,15 @@ function showPopup(bool) {
     document.getElementById('popup').style.visibility = 'hidden'
   }
 }
+
+    function showVideo() {
+        videoContainer = document.getElementById('div1')
+        videoContainer.className = "vid";
+
+    }
+
+      function showVideo2() {
+        videoContainer = document.getElementById('div2')
+        videoContainer.className = "vid";
+      }
+
