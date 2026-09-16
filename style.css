@@ -190,7 +190,11 @@ h2 {
   font-size: 25px;
   margin-left: 30px;
 }
-
+.a 
+{
+  font-family = arial;
+  font-size: 15px;
+}
 /* Recommendations */
 
 .all_recommendations {
