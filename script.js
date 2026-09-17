@@ -29,7 +29,7 @@ function showPopup(bool) {
 }
 
  function showVideo() {
-        if(document.getElementById("div1").getAttribute = "hidden"){
+        if(document.getElementById("div1").getAttribute == "hidden"){
         document.getElementById("div1").removeAttribute("hidden");
         }
         else {
@@ -39,7 +39,7 @@ function showPopup(bool) {
     }
 
       function showVideo2() {
-           if(document.getElementById("div2").getAttribute = "hidden"){
+           if(document.getElementById("div2").getAttribute == "hidden"){
         document.getElementById("div2").removeAttribute("hidden");
         }
         else {
