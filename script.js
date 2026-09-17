@@ -27,9 +27,8 @@ function showPopup(bool) {
     document.getElementById('popup').style.visibility = 'hidden'
   }
 }
-
-boolean isHidden = true;
-boolean isHidden2 =true;
+var isHidden = true;
+var isHidden2 =true;
 
 function showVideo() {
          if (isHidden) {
