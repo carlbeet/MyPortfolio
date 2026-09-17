@@ -39,8 +39,7 @@ function showVideo() {
              document.getElementById("div1").setAttribute("hidden");
           isHidden =true;
         }
-        
-  )
+}
 
       function showVideo2() {
            if(isHidden2){
