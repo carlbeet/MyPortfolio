@@ -33,7 +33,7 @@ function showPopup(bool) {
 
     }
 
-      function showVideo() {
+      function showVideo2() {
          document.getElementById("div2").removeAttribute("hidden");
         
       }
