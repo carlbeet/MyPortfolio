@@ -28,13 +28,23 @@ function showPopup(bool) {
   }
 }
 
-    function showVideo() {
+ function showVideo() {
+        if(document.getElementById("div1").getAttribute = "hidden"){
         document.getElementById("div1").removeAttribute("hidden");
+        }
+        else {
+             document.getElementById("div1").setAttribute("hidden");
+        }
 
     }
 
       function showVideo2() {
-         document.getElementById("div2").removeAttribute("hidden");
+           if(document.getElementById("div2").getAttribute = "hidden"){
+        document.getElementById("div2").removeAttribute("hidden");
+        }
+        else {
+             document.getElementById("div2").setAttribute("hidden");
+        }
         
       }
 
