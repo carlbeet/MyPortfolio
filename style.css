@@ -98,12 +98,14 @@ h2 {
 }
 
 #about-me h1 {
+  padding-left: 10px;
   font-size: 65px;
   margin-top: 90px;
   color:  #81cdc6 ;
 }
 
 #about-me p {
+  padding-left: 10px;
   font-size: 25px;
   color: rgb(128, 128, 128);
   margin-top: -1cm;
