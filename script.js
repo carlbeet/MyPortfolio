@@ -29,13 +29,13 @@ function showPopup(bool) {
 }
 
     function showVideo() {
-        videoContainer = document.getElementById('div1')
-        videoContainer.className = "vid";
+        document.getElementById("div1").removeAttribute("hidden");
 
     }
 
-      function showVideo2() {
-        videoContainer = document.getElementById('div2')
-        videoContainer.className = "vid";
+      function showVideo() {
+         document.getElementById("div2").removeAttribute("hidden");
+        
       }
+
 
