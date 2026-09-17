@@ -28,24 +28,29 @@ function showPopup(bool) {
   }
 }
 
-
+boolean isHidden = true;
+boolean isHidden2 =true;
 
 function showVideo() {
-         if(document.getElementById("div1").getAttribute === "hidden"){
+         if (isHidden) {
         document.getElementById("div1").removeAttribute("hidden");
+           isHidden= false;
         }
         else {
              document.getElementById("div1").setAttribute("hidden");
+          isHidden =true;
         }
         
   )
 
       function showVideo2() {
-           if(document.getElementById("div2").getAttribute === "hidden"){
+           if(isHidden2){
         document.getElementById("div2").removeAttribute("hidden");
+             isHidden2 = false;
         }
         else {
              document.getElementById("div2").setAttribute("hidden");
+          isHidden2 = true;
         }
         
       }
