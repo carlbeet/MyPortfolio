@@ -29,25 +29,25 @@ function showPopup(bool) {
 }
 
 
-const div= document.getElementById("div1");
-const div2 = document.getElementById("div2");
-
- function showVideo() {
-  div.classList.toggle('hidden');
-    }
 
 function showVideo2() {
-  div2.classList.toggle('hidden');
+         if(document.getElementById("div1").getAttribute === "hidden"){
+        document.getElementById("div1").removeAttribute("hidden");
+        }
+        else {
+             document.getElementById("div1").setAttribute("hidden");
+        }
+        
   )
 
-      // function showVideo2() {
-      //      if(document.getElementById("div2").getAttribute === "hidden"){
-      //   document.getElementById("div2").removeAttribute("hidden");
-      //   }
-      //   else {
-      //        document.getElementById("div2").setAttribute("hidden");
-      //   }
+      function showVideo2() {
+           if(document.getElementById("div2").getAttribute === "hidden"){
+        document.getElementById("div2").removeAttribute("hidden");
+        }
+        else {
+             document.getElementById("div2").setAttribute("hidden");
+        }
         
-      // }
+      }
 
 //check
